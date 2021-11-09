@@ -41,4 +41,4 @@ In this example, we select the position in x and y to assigned it to the circle,
 
 ![Screenshot of inside Master_Attractor0 node](./images/screen4.png)
 
-In the Output tab of the TOP (here : `circle1`), the toggle "Comp with Input" needs to be switched on, and in the Common tab, the resolution needs to be the same as the video projector used.s
+In the Output tab of the TOP (here : `circle1`), the toggle "Comp with Input" needs to be switched on, and in the Common tab, the resolution needs to be the same as the video projector used.
