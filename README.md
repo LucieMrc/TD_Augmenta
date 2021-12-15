@@ -4,6 +4,8 @@ The goal is to create interactive installations using video mapping and the trac
 
 The process will consists of using the basic TouchDesigner file already containing the Augmenta plugin connecting to Augmenta Fusion and using Augmenta data to instance 2D or 3D elements on TouchDesigner.
 
+# 2D instancing
+
 ## project1
 
 In the main project, there is the Augmenta base, where you set the OSC port to the one in Augmenta Fusion or in Augmenta Simulator. The outputs are the data coming from Augmenta, and a null showing the debug view.
