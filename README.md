@@ -20,7 +20,7 @@ There is also the **Top_with_Augmenta**, outputting the final visual.
 
 In the Composite tab of the **Comp1**, the TOP selected is `Element_replicator/item*/output1` in order to get every output in every items inside the **Element_replicator**.
 
-**Blur1** and **Level4** are used to create the metaballs effect like in [Benjamin Carrier's tutorial](https://www.youtube.com/watch?v=_8DY7myCNgk), with a Pre-Shrink between 1 and 5, and a Filter Size between 10 and 100 in the Blur, and a Brigthness between 1 and 3, and a Contrast betweenn 10 and 80 in the Level.
+**Blur1** and **Level4** are used to create the metaballs effect like in [Benjamin Carrier's tutorial](https://www.youtube.com/watch?v=_8DY7myCNgk), with a Pre-Shrink between 1 and 5, and a Filter Size between 10 and 100 in the Blur, and a Brigthness between 1 and 3, and a Contrast between 10 and 80 in the Level.
 
 **Feedback1** and **Level3** are used to create a motion blur, with `Comp3` as the Target TOP of the Feedback, and the Brightness set between 0 and 1 in the Level to change the lenght of the blur.
 
