@@ -4,6 +4,59 @@
 
 The process will consists of using the basic TouchDesigner file already containing the Augmenta plugin connecting to Augmenta Fusion and using Augmenta data to instance 2D or 3D elements on TouchDesigner.
 
+# Set up and Augmenta calibration
+
+## Set up of the scene and projection
+
+Open AugmentaFusion.
+
+You need to know the size in meters of your scene (the size of the projection on the ground/wall), and set it up in the Inspector of the scene.
+
+![Schema](./images/screen6.png)
+
+You can then output your Augmenta scene via Syphon or Spout on the projector (with the same resolution as your projector), to make sure the set up is correct.
+
+![Schema](./images/screen7.png)
+
+If the set up is correct, the squares projected are actually squares.
+
+If your connection works, you should see one source available in the `Sources` tab. Add it to see the source surface appear on the scene.
+
+Right-click on the source to `Open Web Interface`.
+
+## Web Interface
+
+### 3D camera
+XYZ position of points, calculated into bounding boxes around objects :
+
+![Schema](./images/schema2.png)
+
+On the web interface, you can see the depth that the camera sees in greyscale, and adjust the parameters.
+
+### Lidar
+XY position of points :
+
+![Schema](./images/schema.png)
+
+On the web interface, you can connect to the lidar with the IP 192.168.0.15, on the port 10940, check out the output of what the lidar sees, and determine the size of the detection area in meters.
+You can also select the minimum object size to be detected and the noise threshold.
+
+// change the IP on the computer to connect to the router connected to the node connect to the lidar
+
+![Schema](./images/screen8.png)
+
+## Calibration
+
+Ask someone to enter the interaction area (touching the wall where the lidar is, stepping under the camera), you should see them appear on the source surface on the scene on AugmentaFusion.
+
+Translate their point by dragging the source surface on the scene until it matches the position on the projection.
+
+While holding alt, drag and drop the + anchor of the source surface to the point.
+
+Ask the someone the move to the other side of the interaction area, and drag to rotate and scale the source surface until the point on the projection is on the new position.
+
+Now when people move on the projection area, points should appear on their position.
+
 # 2D instancing
 
 ## project1
