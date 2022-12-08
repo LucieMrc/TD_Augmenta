@@ -42,6 +42,7 @@ On the web interface, you can connect to the lidar with the IP 192.168.0.15, on 
 You can also select the minimum object size to be detected and the noise threshold.
 
 // change the IP on the computer to connect to the router connected to the node connect to the lidar
+<!-- montrer comment -->
 
 ![Schema](./images/screen8.png)
 
@@ -57,7 +58,9 @@ Ask the someone the move to the other side of the interaction area, and drag to 
 
 Now when people move on the projection area, points should appear on their position.
 
-# 2D instancing
+<!-- ajouter un gif -->
+
+# 2D instancing in TD
 
 ## project1
 
