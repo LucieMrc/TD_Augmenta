@@ -42,6 +42,14 @@ On the web interface, you can connect to the lidar with the IP 192.168.0.15, on 
 You can also select the minimum object size to be detected and the noise threshold.
 
 // change the IP on the computer to connect to the router connected to the node connect to the lidar
+
+Il faut que ça fasse lidar > RJ45 > lan2 du node > lan 1 du node > RJ45 > lan 2 du routeur > lan 1 du routeur > ordi. (jsuis pas sure de l'ordre sur le routeur).s
+
+Se connecter en ethernet, changer son adresse IP de DHCP à Manuel, et choisir 192.168.8.3 (on peux aller de 2 à 254 en vrai), sous-réseau 255.255.0.0, et le routeur est à 192.168.8.1.
+![Schema](./images/screen9.png)
+
+Ainsi on devrait détecter la source sur AugmentaFusion, ouvrir l'interface web qui détecte qu'on utilise un Lidar, et ça doit se connecter :
+
 <!-- montrer comment -->
 
 ![Schema](./images/screen8.png)
