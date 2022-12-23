@@ -33,24 +33,27 @@ XYZ position of points, calculated into bounding boxes around objects :
 
 On the web interface, you can see the depth that the camera sees in greyscale, and adjust the parameters.
 
+![Schema](./images/synoptique2.png)
+
 ### Lidar
 XY position of points :
 
 ![Schema](./images/schema.png)
 
-On the web interface, you can connect to the lidar with the IP 192.168.0.15, on the port 10940, check out the output of what the lidar sees, and determine the size of the detection area in meters.
-You can also select the minimum object size to be detected and the noise threshold.
+Your network should be lidar > RJ45 > lan2 of the node > lan 1 of the node > RJ45 > lan 2  of the router > lan 1  of the router > computer.
 
-// change the IP on the computer to connect to the router connected to the node connect to the lidar
+<!-- (jsuis pas sure de l'ordre sur le routeur). -->
 
-Il faut que ça fasse lidar > RJ45 > lan2 du node > lan 1 du node > RJ45 > lan 2 du routeur > lan 1 du routeur > ordi. (jsuis pas sure de l'ordre sur le routeur).s
+![Schema](./images/synoptique1.png)
 
-Se connecter en ethernet, changer son adresse IP de DHCP à Manuel, et choisir 192.168.8.3 (on peux aller de 2 à 254 en vrai), sous-réseau 255.255.0.0, et le routeur est à 192.168.8.1.
+To have the right IP adress, you need to change your ethernet network parameters when you are connected to the router.
+Change your IP adress from DHCP to manual, and choose 192.168.8.3(or anything from 192.168.8.3 to 192.168.8.254), subnet mask 255.255.0.0, and the router is at 192.168.8.1.
 ![Schema](./images/screen9.png)
 
-Ainsi on devrait détecter la source sur AugmentaFusion, ouvrir l'interface web qui détecte qu'on utilise un Lidar, et ça doit se connecter :
+The source should be detected on AugmentaFusion, and you can then open the web interface. It will detect that you are using a Lidar, and you can open the Lidar interface.
 
-<!-- montrer comment -->
+On the web interface, you can connect to the lidar with the IP 192.168.0.15, on the port 10940, check out the output of what the lidar sees, and determine the size of the detection area in meters.
+You can also select the minimum object size to be detected and the noise threshold.
 
 ![Schema](./images/screen8.png)
 
