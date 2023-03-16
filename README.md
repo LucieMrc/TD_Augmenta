@@ -83,6 +83,8 @@ There is also the **Top_with_Augmenta**, outputting the final visual.
 
 ## *project1 >* Top_with_Augmenta
 
+The `TOP with Augmenta` Base is used to generate and modify elements that are generated for each person detected.
+
 ![Screenshot of inside Top_with_Augmenta node](./images/screen3.png)
 
 In the Composite tab of the **Comp1**, the TOP selected is `Element_replicator/item*/output1` in order to get every output in every items inside the **Element_replicator**.
@@ -91,22 +93,24 @@ In the Composite tab of the **Comp1**, the TOP selected is `Element_replicator/i
 
 **Feedback1** and **Level3** are used to create a motion blur, with `Comp3` as the Target TOP of the Feedback, and the Brightness set between 0 and 1 in the Level to change the lenght of the blur.
 
-
 ## *project1 > Top_with_Augmenta >* Element Replicator
 
 ![Screenshot of inside Element_replicator node](./images/screen2.png)
 In this case, there is 3 distinct objects detected by Augmenta.
 
-If you open any of these items, they contain the same nodes that there are in `Master_Attractor0`, but with the data of one id each.
+If you open any of these items, they contain the same nodes that are in `Master_Attractor0`, but with the data of one id each.
 
+The items here are the children of the `Master_Attractor0` and the `Replicator`, where the `Master_Attractor0` is the template and the `Replicator` repeat this template for every row of the array of people detected.
 
 ## *project1 > Top_with_Augmenta > Element Replicator >* Master Attractor
 
 This is the node where the element that will be instanced for each object detected will be created, and Augmenta's datas will be assigned to TOPs parameters.
 
+The `Select` DAT get the array of people detected, and the `Select` CHOP allows to select specific column in the array (here the x, y with index between 1 and 2, and the height with the index 11).
+
 ![Screenshot of inside Master_Attractor0 node](./images/screen1.png)
 
-In this example, we select the position in x and y to assigned it to the circle, as well as the height to set the radius of the circle :
+In this example, we select the position in x and y to assign it to the circle, as well as the height to set the radius of the circle :
 
 ![Screenshot of inside Master_Attractor0 node](./images/screen4.png)
 
