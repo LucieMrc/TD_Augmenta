@@ -4,9 +4,22 @@
 
 The process will consists of using the basic TouchDesigner file already containing the Augmenta plugin connecting to Augmenta Fusion and using Augmenta data to instance 2D or 3D elements on TouchDesigner.
 
-# Set up and Augmenta calibration
+# Augmenta Simulator
 
-## Set up of the scene and projection
+To start creating from Augmenta datas without the set up (from home, before setting up, etc), you can use the software Augmenta Simulator. It simulate people moving on a scene, with their tracking datas being sent via OSC to whatever creative software you want to use.
+
+[Download Augmenta Simulator](https://augmenta.tech/downloads/)
+
+![Schema](./images/screen10.png)
+
+You simply click on the scene to create a person, and right-click on it to delete it.
+
+On the settings on the left pannel, you can set up the width and height of the scene in meters, based on the size of your scene in real life.
+You can also decide the speed of the people moving, and their minimal and maximal size.
+
+# Augmenta Fusion : Set up and calibration
+
+## Set up of the scene and projection on Augmenta Fusion
 
 Open AugmentaFusion.
 
