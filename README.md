@@ -14,7 +14,7 @@ The process will consists of using the basic TouchDesigner file already containi
         * [Lidar](#lidar)<br>
     * [Calibration](#Calibration)<br>
 
-* [2D instancing in TD](#2D-instancing-in-TD)    
+* [2D instancing in TouchDesigner](#2D-instancing-in-TD)    
     * [project1](#project1)<br>
     * [Top_with_Augmenta](#project1--top_with_augmenta)<br>
     * [Element Replicator](#project1--top_with_augmenta--element-replicator)<br>
