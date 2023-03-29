@@ -6,14 +6,14 @@ The process will consists of using the basic TouchDesigner file already containi
 
 ## Content
 * [Augmenta Simulator](#Augmenta-Simulator)<br>
-<br>
+
 * [Augmenta Fusion : Set up and calibration](#Augmenta-Fusion--Set-up-and-calibration)<br> 
     * [Set up of the scene and projection](#Set-up-of-the-scene-and-projection)<br>
     * [Web Interface](#Web-Interface)<br>
         * [3D Camera](#3D-camera)<br>
         * [Lidar](#lidar)<br>
     * [Calibration](#Calibration)<br>
-<br>
+
 * [2D instancing in TD](#2D-instancing-in-TD)    
     * [project1](#project1)<br>
     * [Top_with_Augmenta](#project1--top_with_augmenta)<br>
